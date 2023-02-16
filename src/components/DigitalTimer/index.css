@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  font-family: Roboto;
+  padding: 25px;
+}
+.heading {
+  font-size: 24px;
+  text-align: center;
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-running-container {
+  border-radius: 5000px;
+  background-color: #ffffff;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 25px;
+}
+.timer-heading {
+  color: #00f5a0;
+  font-weight: bold;
+}
+.timer-status {
+  font-weight: bold;
+}
+
+.button {
+  border-width: 0;
+  background-color: transparent;
+  font-size: 24px;
+}
+.timer-count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+.pause-reset-container {
+  display: flex;
+}
+.time-status {
+  font-size: 24px;
+}
+.button-image {
+  width: 20px;
+  height: 20px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+.set-time {
+  font-size: 12px;
+  font-weight: bold;
+}
+.button-set-limit {
+  border-width: 0;
+  background-color: transparent;
+  font-size: 22px;
+}
+.count {
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  background-size: cover;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
